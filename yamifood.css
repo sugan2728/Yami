@@ -1,0 +1,176 @@
+#main{
+    /* border: 1px solid black; */
+    margin:0;
+    width:auto;
+    height:auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#taskbar{
+    width:100%;
+    height:100px;
+    position: sticky;
+    top:0%;
+    background-color: aliceblue;
+    z-index:2;
+   
+}
+#tnav{
+    position:absolute;
+    right:1%;
+    top:25%;
+    background-color: aliceblue;
+    font-size:larger;
+}
+ #open{ 
+    width:100%;
+    height:550px;
+    border:none;
+    
+} 
+ @keyframes img{
+0%{ 
+transition-duration:1s;
+background-image:url(images/slider-01.jpg);
+/* background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/slider-01.jpg); */
+background-repeat:no-repeat;
+background-size:cover;
+}
+25%{
+transition-duration:1s;
+background-image:url(images/slider-02.jpg);
+/* background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/slider-02.jpg); */
+background-repeat:no-repeat;
+background-size:cover;
+}
+75%{
+transition-duration:1s;
+background-image:url(images/slider-03.jpg);
+/* background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/slider-03.jpg); */
+background-repeat:no-repeat;
+ background-size:cover;
+}
+100%{
+transition-duration:1s;
+background-image:url(images/slider-01.jpg);
+/* background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/slider-01.jpg); */
+background-repeat:no-repeat;
+ background-size:cover;
+} 
+}
+#heading{
+    /* border:2px solid white; */
+    color: aliceblue;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    margin-top: 5%;
+    margin-left:23%;
+    color: aliceblue;
+    z-index:1;
+}
+#story{
+    /* border: 2px solid #000000; */
+    width:100%;
+    height:600px;
+    padding:40px;
+    display: flex;
+    row-gap:20px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+}
+#con{
+    /* border: 2px solid black; */
+    width:650px;
+}
+#quotes{
+    width:100%;
+    height:400px;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/qt-bg.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    position: relative;
+    z-index:-1;
+    
+}
+#quotes1{
+    position: absolute;
+    top:20%;
+    left:20%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#img_container{
+    display: grid;
+    grid-template-rows:repeat(3,250px);
+    grid-template-columns:repeat(3,400px);
+    grid-row-gap:30px;
+    grid-column-gap:30px;
+    padding:30px 50px;
+    background-color: black;
+}
+#gallery1{
+    background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6)),url(images/all-bg.jpg);
+    /* background-image:url(images/all-bg.jpg); */
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#gallery{
+    display: grid;
+    grid-template-rows:repeat(2,270px);
+    grid-template-columns:repeat(3,410px);
+    grid-row-gap:20px;
+    grid-column-gap:24px;
+    padding:20px 24px;
+    background-color:rgba(255, 194, 144, 0.966);
+}
+.gimg{
+    transition-duration:0.5s;
+}
+.gimg:hover{
+    transform:scale(1.1);
+    transition-duration:0.3s;
+}
+#details{
+    width:100%;
+    height:100px;
+    background-color:rgb(216, 165, 106);
+    display:flex;
+    gap:200px;
+    padding:0px 12%;
+    font-size:20px;
+    color: #ffffff;
+}
+#blog{
+    padding:50px 50px;
+    width:100%;
+    height:800px;
+    background-color:rgb(216, 165, 106);
+
+}
+#fd{
+    width:100%;
+    height:350px;
+    display:flex;
+    gap:20px;
+    padding:25px 40px;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/footer-bg.jpg);
+}
+.final{
+    width:300px;
+    height:300px;
+    padding:10px;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#bottom{
+    border-top:2px dashed rgb(221, 174, 121);
+    height:100px;
+    width:100%;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
